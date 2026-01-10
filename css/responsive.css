@@ -206,12 +206,12 @@
   .blog--post--content .blog--post--title {
     font-size: 32px;
   }
-  .AURA Nutrition-page-content blockquote,
+  .GRAVITY Nutrition-page-content blockquote,
   .format-quote blockquote,
   .blog-details-content blockquote {
     padding: 45px 40px;
   }
-  .AURA Nutrition-page-content blockquote::before,
+  .GRAVITY Nutrition-page-content blockquote::before,
   .format-quote blockquote::before,
   .blog-details-content blockquote::before {
     width: 134px;
@@ -246,7 +246,7 @@
     top: -15px;
     right: -30px;
   }
-  .AURA Nutrition-shop-product-main > .row {
+  .GRAVITY Nutrition-shop-product-main > .row {
     --bs-gutter-x: 20px;
   }
   .shop-sidebar {
@@ -573,7 +573,7 @@
   .features-bg {
     padding: 120px 0;
   }
-  .AURA Nutrition-page-content blockquote,
+  .GRAVITY Nutrition-page-content blockquote,
   .format-quote blockquote,
   .blog-details-content blockquote {
     font-size: 24px;
@@ -1332,12 +1332,12 @@
     padding-bottom: 25px;
     margin-bottom: 25px;
   }
-  .AURA Nutrition-page-content blockquote,
+  .GRAVITY Nutrition-page-content blockquote,
   .format-quote blockquote,
   .blog-details-content blockquote {
     padding: 40px 25px;
   }
-  .AURA Nutrition-page-content blockquote::before,
+  .GRAVITY Nutrition-page-content blockquote::before,
   .format-quote blockquote::before,
   .blog-details-content blockquote::before {
     width: 100px;
@@ -1672,7 +1672,7 @@
   .rc-post-content h5 {
     font-size: 18px;
   }
-  .AURA Nutrition-page-content blockquote,
+  .GRAVITY Nutrition-page-content blockquote,
   .format-quote blockquote,
   .blog-details-content blockquote {
     font-size: 26px;

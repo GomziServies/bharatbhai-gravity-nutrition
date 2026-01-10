@@ -2093,10 +2093,49 @@ body.search-visible {
   color: #ff9b26;
   margin-right: 8px;
 }
+
+.shop-details-price{
+  display: block;
+  line-height: 1;
+  font-weight: 700;
+  font-size: 18px;
+}
+
 .inner-shop-details-price {
   display: flex;
   align-items: center;
   margin: 18px 0 18px;
+}
+.discount-badge{
+    display: inline-block;
+  background-color: #28a745;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+.shop-details-price .mrp{
+   font-size: 20px;
+  color: #999;
+  text-decoration: line-through;
+  margin-left: 10px;
+  font-weight: 500;
+}
+.inner-shop-details-price .price {
+   font-size: 28px;
+  font-weight: 700;
+  color: #222222;
+  margin-bottom: 5px;
+  margin-right: 8px;
+}
+.inner-shop-details-price .mrp{
+   font-size: 20px;
+  color: #999;
+  text-decoration: line-through;
+  margin-left: 10px;
+  font-weight: 500;
 }
 .inner-shop-details-price .woocommerce-Price-amount,
 .inner-shop-details-price del,
@@ -2118,6 +2157,7 @@ body.search-visible {
 }
 .inner-shop-details-price .stock-status {
   font-size: 12px;
+   margin-top: 6px;
   line-height: 1;
   margin-bottom: 0;
   font-weight: 900;
@@ -3867,7 +3907,7 @@ body.search-visible {
   margin-top: 5px;
   color: #1061cc;
 }
-.AURA Nutrition-page-content blockquote,
+.GRAVITY Nutrition-page-content blockquote,
 .format-quote blockquote,
 .blog-details-content blockquote {
   margin: 35px 0;
@@ -3884,7 +3924,7 @@ body.search-visible {
   font-style: italic;
   font-family: "Oswald", sans-serif;
 }
-.AURA Nutrition-page-content blockquote::before,
+.GRAVITY Nutrition-page-content blockquote::before,
 .format-quote blockquote::before,
 .blog-details-content blockquote::before {
   content: "";
@@ -3896,7 +3936,7 @@ body.search-visible {
   height: 192px;
   z-index: -1;
 }
-.AURA Nutrition-page-content blockquote span,
+.GRAVITY Nutrition-page-content blockquote span,
 .format-quote blockquote span,
 .blog-details-content blockquote span {
   display: block;
@@ -3907,7 +3947,7 @@ body.search-visible {
   text-transform: unset;
   letter-spacing: 0;
 }
-.AURA Nutrition-page-content blockquote span > a,
+.GRAVITY Nutrition-page-content blockquote span > a,
 .format-quote blockquote span > a,
 .blog-details-content blockquote span > a {
   color: var(--tg-white);
@@ -4345,6 +4385,9 @@ body.search-visible {
 }
 .contact-content .contact-desc {
   margin-bottom: 0;
+}
+.contact-desc a {
+  color: #777777;
 }
 .contact-box-wrapper {
   padding: 0 55px;
@@ -5156,7 +5199,7 @@ body.search-visible {
   display: block;
   line-height: 1;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
   color: #1061cc;
 }
 .tg-shop-price del {
