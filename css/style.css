@@ -1367,7 +1367,7 @@ body.search-visible {
 }
 .features-icon {
   font-size: 50px;
-  color: #fee431;
+  color: #1061cc;
   position: relative;
   z-index: 1;
   margin: 0 0 27px;
@@ -7568,4 +7568,34 @@ body.search-visible {
   background-color: #1061cc;   
   border: 2px solid #1061cc;  
   color: #fff !important;                 
+}
+
+.product-size-selector {
+  margin: 20px 0;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.product-size-selector span {
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+}
+.size-option {
+  padding: 8px 25px;
+  border: 2px solid #e0e0e0;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #333 !important;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+.size-option.active {
+  border-color: #1061cc;
+  background: #1061cc;
+  color: #fff !important;
+}
+.size-option:hover:not(.active) {
+  border-color: #1061cc;
 }
